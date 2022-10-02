@@ -1,0 +1,14 @@
+1c
+
+roguelike
+laberinto
+lucha
+puzzles
+cartas roguelike
+celdas
+combate por turnos
+tower defense
+final fantasy con mazmorras y vision limitada
+temple run 2d
+disparar rocas en el espacion
+shooter nave espacial (raiden)

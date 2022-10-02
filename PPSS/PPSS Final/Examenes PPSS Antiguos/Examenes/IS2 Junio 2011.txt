@@ -1,0 +1,39 @@
+
+
+Install....
+
+se va generando las directivas anteriores.... y luego se genera un fichero jar que esta listo para la ejecución.
+
+
+
+problemas al instalar maven... en eclipse y en el pom
+
+
+
+
+en project... que significa que el trabajo esta condicionado por el esfuerzo.
+
+si en project dejas fijo uno de los valores, que pasaria?
+
+
+
+un caja negra (2p)
+
+uno de los stubs (1.5p)
+
+una pregunta donde te daba el código de DbUnit y tenías que decir qué significaba (1p)
+
+una gráfica donde te preguntaba la evolución del proyecto y se representaba el bcws, acws y bcwp (1.5p)
+
+una pregunta rara sobre el SNAPSHOT y sobre la opción arquetipe de maven
+que diferencia hay entre clean y cobertura:clean
+que diferencia hay entre los objetivos install y execute (creo)
+y otra sobre maven que no me acuerdo...
+
+
+
+
+
+
+
+

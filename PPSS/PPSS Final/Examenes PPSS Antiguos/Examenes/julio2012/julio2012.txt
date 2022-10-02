@@ -1,0 +1,45 @@
+1) nos da el esquema de matriculacion a practicas: 1,25
+ /0.85
+
+a) configurar pom para utilizar cobertura
+ 
+b) pasos y ejecuciones que debes hacer si es la primera vez que ejecutas maven y quieres obtener los ficheros de cobertura.
+
+
+2) Nos dan un esquema de Hudson: te dice que se hacen las pruebas cada 15 minutos.... blablabla (paja) 2,50
+ / 0.50
+
+a) Que indica el esquema? (en realidad la grafica era toda azul, ver grafica hudson) y que decision tomarias si fueras el director del proyecto.
+
+
+
+3) Caja blanca (ejercicio while de cajero automatico) 1,75 / 1.50
+
+
+a) Todos los pasos para realizar  caja blanca
+
+
+b) Implementar dos pruebas de JUnit :
+	-Que haga dos iteraciones con contador<=2 y salga
+	-Que salga con el boton cancel en la primera ejecucion
+
+(NOTA: Habia que hacer Stubs)
+
+
+
+4) Responde verdadero y falso: 1,25 / 0,5
+	
+	
+a) MsProject sirve para monitorizar y no para controlar
+	
+b) MSProject puede trabajar con varias agendas y con diferentes niveles de abstraccion
+	
+c)
+	
+d)
+
+
+5) En el DBUnit describir para que usariamos un Stub. Si estamos realizando pruebas de integracion en nuestro proyecto, realizaremos pruebas de DBUnit? 1,5/ 0,25
+
+
+6) Indica todos los pasos que se deben hacer para calcular cuantas iteraciones se realizaran por cada fase en UP.

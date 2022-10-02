@@ -1,0 +1,112 @@
+
+1º Cobertura (como configurar maven para cobertura)
+
+2º Que mostraria cobertura si: (nº de lineas)
+	a) no ejecutamos ninguna prueba de las anteriores
+	b) ejecutamos solo una prueba
+	c) ejecutamos de la 1 a la 4
+	d) ejecutamos las 5
+
+3º Explicar algo de COCOMO una formula
+
+4º Hudson (explicar grafica)
+
+5º EVA con proyect
+
+6º Tipos de pruebas que haria en matriculacion (de practicas)
+
+
+
+El primer ejercicio era un codigo de un metodo con una tabla con los datos de prueba y la salida esperada, era decir como configurarias maven para ejecutar cobertura de forma que se van a ejecutar varias veces las pruebas, osea lo que dijeron de hacer cobertura clean para borrar sin tener que volver a compilar y los comandos que usarias para ejecutar cobertura todo eso 0,5 puntos.
+
+Asique habia que poner el numero de veces que pasaria por cada linea poner las ramas que se ejecutarian y lo de la complejidad cilcomatica el codigo era un metodo para poner asignaturas
+
+Que mostraria cobertura si: 
+	a) no ejecutamos ninguna prueba de las anteriores
+	b) ejecutamos solo una prueba
+	c) ejecutamos de la 1 a la 4
+	d) ejecutamos las 5
+
+
+public void getNota(int nota, bool np, bool mh)
+
+{
+
+    if(mh && (nota<5 || np)
+	
+    {
+	
+	return null;
+	
+    }
+
+    CrearCalificacion calif = new CrearCalificacion();
+
+    if(np)
+
+    {
+
+	calif = setCalificacion(0, "ENUMERADO".NP);
+	
+    }
+
+    else if (nota < 5)
+    {
+
+	calif = setCalificacion(nota, "ENUMERADO".SS);
+	
+    }
+
+    else if (mh)
+
+    {
+
+        calif = setCalificacion(nota, "ENUMERADO".AP);
+    }
+    else
+
+    {
+
+	calif = setCalificacion(nota, ENUMERADO.MH;
+	
+    }
+    return calif;
+
+}
+
+
+
+
+
+/*PRUEBAS*/
+
+		
+		nota		np		mh		salida_esperada
+
+B1		0		true		false		NP
+
+B2		3		false		false   	SS
+
+B3		7		false		false   	AP
+
+B4		9 		false		true		MH
+
+B5		6		true		true		null
+
+
+
+El segundo era Hudson...porque decia que dijeras de formas "GRAFICA" que salida nos daria hudson con los apartados anteriores a-b-c-d
+
+y como "CONFIGURARIAS LA PROGRAMACION" si queremos ejecutar el codigo cada 15 minutosy solo si se han producido cambios.
+
+
+Tercero... MS Project describe todos los pasos que debes de dar en MS Project para ver las metricas de EVA.
+
+
+Cuarto...COCOMO te da todas las formulas pero no habia que calcular nada solo poner los pasos y lo que queria era que teniamos un proyecto de una tamaño (te daba los datos) y te decia que en la empresa tenian un modulo de 500 LOC y que sustituia un 20% de nuestra funcionalidad entonces habia que decir los pasos que seguiriamos para ver si este modulo nos sirve o no
+
+ 
+Quinto... nos daba la estructura del proyecto de matriculacion pues que describieramos el tipo de pruebas que podriamos hacer sobre los diferentes modulos y que artefactos y librerias deberiamos incluir en el proyecto para las pruebas y como configurarlo.
+
+
+

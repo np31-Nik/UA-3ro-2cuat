@@ -1,0 +1,68 @@
+En la máquina virtual hemos instalado lo siguiente:						                                                                           
+Hemos usado como base el sistema operativo 20.04.3 LTS (Focal Fossa). http://lubuntu.net.
+
+Lista de herramientas instaladas, que usaremos en la PRIMERA parte de la asignatura:
+
+- jdk 11, más concretamente: openjdk 11.0.11 2021-04-20
+
+- maven 3.8.4 (en la máquina virtual está instalado en /usr/local). 
+    Para usarlo desde un terminal hay que actualizar el path del sistema.
+    En Ubuntu hemos añadido estas dos líneas al fichero .profile de vuestro directorio $HOME:
+	 export M2_HOME=/usr/local/apache-maven-3.8.4
+       export PATH=$PATH:$M2_HOME/bin
+
+- Git 2.25.1 (la versión de git no es relevante, podéis usar una versión más reciente si queréis, o incluso una anterior)
+
+- IntelliJ Idea Ultimate (ideaIU-2021.3.tar.gz)
+	IntelliJ debéis configurarlo para que use el maven externo instalado en /usr/local 
+	(en el enunciado "P01A-Entorno de pruebas" (ejercicio 2) se indica cómo hacerlo)
+
+
+Lista de herramientas instaladas, que usaremos en la SEGUNDA parte de la asignatura:
+
+- mysql server (versión 8.0.21-0ubuntu0.20.04.4 for Linux on x86_64) 
+     contraseña de root: ppss   
+
+- Chrome Versión 96.0.4664.110
+
+- Chromedriver
+  Para instalar Chromedriver:
+  (https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
+  (1) Descargar chromedriver--> https://chromedriver.storage.googleapis.com/index.html
+      Hay que buscar la versión que coincida con la versión del navegador
+	         Hemos descargado la versión: 96.0.4664.45
+  (2) Descargar libconf-2-4 (en ubuntu ha sido necesario instalarlo, en otros sistemas operativos tendríais que verlo)
+	         (https://zoomadmin.com/HowToInstall/UbuntuPackage/libgconf-2-4)
+	         --> sudo apt install libgconf-2-4
+  (3) Actualizar .profile, añadiendo la línea:
+   --> export PATH=$PATH:/home/ppss/chromedriver
+
+
+- Selenium IDE (extensión para Chrome, versión 3.17.0)
+- Katalon (extensión para Chrome, versión 5.6.5)
+
+Tenemos todavía pendiente decidir si usaremos Selenium IDE o Katalon.
+
+- Servidor de aplicaciones Wildfly (versión 22.0.0.Final)
+  Fichero Wildfly-22.0.0.Final.zip, en /home/ppss/Descargas
+  Descargado de: https://wildfly.org/downloads/
+    https://download.jboss.org/wildfly/22.0.0.Final/wildfly-22.0.0.Final.zip
+
+- Aplicación JPetStore
+  Descargada en la carpeta: $HOME/jpetstore
+  Para descargarla:
+  	git clone https://github.com/mybatis/jpetstore-6.git
+
+  Una vez descargada, hemos modificado los siguientes ficheros:
+- Fichero src/main/webapp/css/jpetstore.css: En las líneas 174 y 175 verás que hay dos llaves que no tienen nada en su interior. Bórralas.
+	- Fichero fuente web.actions/AccountActionBean.java: cambia la línea 119, "authenticated= true", por "authenticated=false"
+
+  Además, hemos añadido la línea:
+	 <downloadDir>${env.HOME}/Descargas</downloadDir> en el pom, 
+     concretamente en el plugin cargo-maven-2-plugin (anidado en <pluginManagement>), en <configuration>
+
+- JMeter: apache-jmeter-5.4.2
+  Instalado en $HOME
+  Actualizamos el path en .profile:
+    export PATH=$PATH:/home/ppss/apache-jmeter-5.4.2/bin
+  Se puede ejecutar tecleando jmeter desde línea de comandos, o desde un lanzador en el escritorio

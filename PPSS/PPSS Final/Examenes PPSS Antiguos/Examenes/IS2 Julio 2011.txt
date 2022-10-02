@@ -1,0 +1,12 @@
+
+1º DbUnit... hacer una prueba y Formato FlatXML
+
+2º TDD, refactorizar? como? por qué?
+
+3º Complejidad ciclomática en cobertura
+
+4º Hudson, CVS, como trabaja hudson?
+
+5º Diseconomía de escala, como lo arregla COCOMO? para que sirve? como mejorar?
+
+6º WBS, dos objetivos.

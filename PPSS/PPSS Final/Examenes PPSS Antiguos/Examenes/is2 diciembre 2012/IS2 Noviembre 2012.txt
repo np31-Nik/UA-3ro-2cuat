@@ -1,0 +1,25 @@
+
+1º -> 
+
+a) Porque un NODO del grafo de CC corresponde a 1 condicion?  (0.5p)
+
+b) SPI = 1, CPI = 0.8 => se puede asegurar que la tarea a terminado y se ha gastado 1.25 más?  (0.5p)
+
+c) plugins dbunit.jar, sql-plugin, cobertura-plugin, mysql-connector (explica donde poner en el pom y como afecta en la practica)    (1p)
+
+
+
+2º -> EO, EI, EQ, EIF, ILF => dada una especificacion, indicar los FP, y si es top down o bottom up las estmaciones (2p)
+
+
+3º -> Stub + pruebas JUnit (2p)
+
+
+4º -> Hudson... .sistema de integracion... como arreglarlo si eres tu el gestor... que hacer? como constuir? componentes?... (2p)
+
+
+5º -> DBUnit, indicar el @before setUp() e indicar que tipos de pruebas son. (2p)
+
+
+
+

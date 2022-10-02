@@ -1,0 +1,38 @@
+public void getNota(int nota, bool np, bool mh)
+{
+	if(mh && (nota<5 || np)
+	{
+		return null;
+	}
+	
+	CrearCalificacion calif = new CrearCalificacion;
+	if(np)
+	{
+		calif = setCalificacion(0, "ENUMERADO".NP);
+	}
+	else if (nota < 5)
+	{
+		calif = setCalificacion(nota, "ENUMERADO".SS);
+	}
+	else if (mh)
+	{
+		calif = setCalificacion(nota, "ENUMERADO·.AP);
+	}
+	else
+	{
+		calif = setCalificacion(nota, ENUMERADO.MH;
+	}
+	
+	return calif;
+}
+
+
+
+/*PRUEBAS*/
+
+		nota		np		mh		salida_esperada
+B1		0			true	false	NP
+B2		3			false	false   SS
+B3		7			false	false   AP
+B4		9			false	true	MH
+B5		6			true	true	null

@@ -1,0 +1,42 @@
+Buenas,
+Yo os contare sobre la parte de Análisis del cliente
+
+Como nuestra aplicación ofrecerá varios tipos de bots, tendremos varios tipos de clientes, cada uno para un bot diferente:
+
+El primero se llama Pedro Garcia, es un chico de 18 años, que dedica muchas horas de su tiempo libre a videojuegos de ordenador y de movil, y las redes sociales, pero este año ha empezado la universidad, asi que tiene menos tiempo para jugar.
+
+Para el es muy importante seguir progresando en sus cuentas de videojuegos, como cumplir ciertos objetivos como subir de nivel y misiones, pero con la universidad, no es capaz de cumplir con eso.
+
+
+En su perfil de cliente podemos destacar en la parte de tareas que necesita progresar en videojuegos, necesita tiempo para estudiar, y necesita obtener recompensas en videojuegos.
+
+Su unico dolor seria la falta de tiempo para realizar todo.
+
+En beneficios se espera que no tenga que estar en el ordenador para poder progresar en su cuenta, y una cosa que no es necesario pero seria un bonus, es el apoyo mientras que juega, como por ejemplo auto aim o scripts.
+
+
+
+Otro cliente seria Emily Garcia, es una mujer de 32 años, empleada de oficina, con un horario de trabajo muy ocupado y estricto, ademas de ocupar sus horas de descanso a sus hijos.
+
+A Emily le gusta mucho salir de compras y obtener la ultima ropa de moda, pero con su trabajo y horario, le resulta casi imposible hacer eso.
+Emily ademas esta interesada en el mercado financiero, por su trabajo.
+
+En su perfil de cliente podemos destacar en la parte de tareas que necesita encontrar ofertas de ropa de ultima moda, estar actualizada en el mercado financiero, y ademas estar concentrada en su trabajo.
+
+Sus dolores son sus horas de trabajo, que no le permiten salir de compras tan seguido, y una posible alternativa que seria la busqueda online, tampoco le sirve, ya que en su trabajo no puede permitirse perder tiempo en eso, lo cual requiere mucho tiempo.
+
+Emily se esperaria ser informada sobre las mejores ofertas para productos exactos que ella este buscando, y que le llegue mediante notificaciones o correos.
+Tambien le gustaria recibir noticias concretas sobre el mercado financiero.
+
+
+Por ultimo, otro cliente seria Joana Lopez, es una chica de 20 años, que se dedica a ser influencer en las redes sociales, quiere obtener mas fama y mas seguidores para poder obtener ofertas de trabajo de empresas para anunciar diferentes articulos de ropa de ultima moda.
+
+En sus tareas podemos destacar que quiere obtener mas popularidad, y conseguir mas seguidores en las redes.
+
+Sus dolores son la dificultad para conseguir seguidores, y popularidad.
+
+En beneficios podemos ver que ella se espera seguidores que comenten y compartan su contenido.
+Y otra cosa que le gustaria pero no se esperaria es el aumento en la popularidad de su cuenta para que aparezca mas frecuentemente en las busquedas de internet.
+
+
+
